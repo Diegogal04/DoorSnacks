@@ -15,8 +15,7 @@ const Navbar = ({ totalItems }) => {
             <AppBar position="fixed" className={classes.appBar} color="inherit">
                 <Toolbar>
                     <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-                        <img src={logo} alt="DoorSnacks" height="25px" className={classes.image} />
-                        DoorSnacks
+                        <img src={logo} alt="DoorSnacks" height="50px" className={classes.image} />
                     </Typography>
                     <div className={classes.grow} />
                     {location.pathname === "/" && (
